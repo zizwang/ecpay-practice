@@ -1,0 +1,6 @@
+<form action="/ecpay" method="POST" oninput="result.value = parseInt(number.value) * 5">
+  <p>Price per item: $5</p>
+  <p>Quantity: <input type="number" id="number" name="number" value="0" min="0" /></p>
+  <p>Total Price: $<output name="result" for="number">0</output></p>
+  <button type="submit">Submit</button>
+</form>
