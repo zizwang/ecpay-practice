@@ -1,1 +1,3 @@
-# ecpay-practice
+    $ yarn install
+
+    $ node index.js 
